@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Yasaswini P | Portfolio</title>
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet"
+  />
+  <!-- Font Awesome for icons -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iP8CccASXtxVvrOjy+AJ7dgNz7FUCYs7PnO0wV6FN5Q4KFuL/FeWH/b17cHTtxILqYqmtuh6hQ0QwULzPYvcKw=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <!-- Navigation -->
+  <nav id="navbar" class="nav">
+    <div class="container nav-container">
+      <a href="#hero" class="logo">Yasaswini</a>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="hamburger" id="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="hero" class="hero-section">
+    <div class="overlay"></div>
+    <div class="hero-content">
+      <h1 class="hello">Hello, I'm <span class="highlight">Yasaswini P</span></h1>
+      <h2 class="typed-text" id="typed-text"></h2>
+      <p class="subtagline">
+        A graduate student passionate about building distributed systems, scalable
+        microservices and data-driven applications.
+      </p>
+      <div class="cta-buttons">
+        <a href="../Resume_Yasaswini_ft.pdf" class="btn btn-primary" download>Download Resume</a>
+        <a href="#contact" class="btn btn-secondary">Contact Me</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="section">
+    <div class="container">
+      <h2 class="section-title">About Me</h2>
+      <p class="about-text">
+        I'm a Computer Science graduate student at Stony Brook University with a
+        passion for building robust distributed systems and cloud-native
+        applications. With experience ranging from developing scalable
+        microservices in gRPC to optimizing cost and performance in cloud
+        environments, I enjoy solving complex problems and transforming ideas
+        into production‑ready solutions. My toolkit spans languages like Java,
+        Python and Go, as well as frameworks such as React, Spring Boot and
+        FastAPI. When I'm not coding, you'll find me exploring new AI
+        technologies or contributing to open‑source projects.
+      </p>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="section bg-alt">
+    <div class="container">
+      <h2 class="section-title">Skills</h2>
+      <div class="skills-grid">
+        <div class="skill-card">
+          <i class="fa-solid fa-code"></i>
+          <h3>Languages</h3>
+          <p>Java, Python, Go, C, SQL (Postgres), JavaScript, HTML/CSS, R</p>
+        </div>
+        <div class="skill-card">
+          <i class="fa-solid fa-gears"></i>
+          <h3>Frameworks & Libraries</h3>
+          <p>React, Node.js, Flask, FastAPI, Spring Boot, Kubernetes, Docker, Jenkins</p>
+        </div>
+        <div class="skill-card">
+          <i class="fa-solid fa-toolbox"></i>
+          <h3>Developer Tools</h3>
+          <p>Git, VS Code, PyCharm, IntelliJ, Eclipse</p>
+        </div>
+        <div class="skill-card">
+          <i class="fa-solid fa-cloud"></i>
+          <h3>Cloud & DevOps</h3>
+          <p>GCP, Compute, Storage, Networking, Database, Security, CDN, GKE</p>
+        </div>
+        <div class="skill-card">
+          <i class="fa-solid fa-book-open"></i>
+          <h3>Courses</h3>
+          <p>Distributed Systems, Operating Systems, Computer Networks, Cloud Computing, Algorithms, AI/ML</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Education Section -->
+  <section id="education" class="section">
+    <div class="container">
+      <h2 class="section-title">Education</h2>
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-icon"><i class="fa-solid fa-university"></i></div>
+          <div class="timeline-content">
+            <h3>Stony Brook University</h3>
+            <span class="timeline-date">Aug 2024 – May 2026</span>
+            <p>Master of Science in Computer Science, Stony Brook, NY</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-icon"><i class="fa-solid fa-graduation-cap"></i></div>
+          <div class="timeline-content">
+            <h3>JSS Academy of Technical Education</h3>
+            <span class="timeline-date">Aug 2018 – Jul 2022</span>
+            <p>Bachelor of Engineering in Computer Science, CGPA: 8.58, Bangalore, India</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience Section -->
+  <section id="experience" class="section bg-alt">
+    <div class="container">
+      <h2 class="section-title">Experience</h2>
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-icon"><i class="fa-solid fa-briefcase"></i></div>
+          <div class="timeline-content">
+            <h3>Software Engineer Intern – DataBahn, Inc.</h3>
+            <span class="timeline-date">May 2025 – Aug 2025</span>
+            <p>
+              • Automated AWS cost and usage reporting via API integrations,
+              improving data accuracy by 30%.
+              <br />
+              • Developed dynamic dashboards and scalable backend APIs for cost and
+              agent data ingestion, boosting monitoring efficiency and throughput
+              by up to 40%.
+              <br />
+              • Researched and integrated AI frameworks for anomaly detection and
+              log summarization, reducing manual analysis time by 20%.
+              <br />
+              • Applied FinOps principles to align cloud cost metrics with product
+              data, enabling a 10% cost reduction and improving margin
+              accuracy.
+            </p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-icon"><i class="fa-solid fa-briefcase"></i></div>
+          <div class="timeline-content">
+            <h3>Associate Software Engineer – Accenture</h3>
+            <span class="timeline-date">Dec 2022 – Jul 2024</span>
+            <p>
+              • Designed and implemented a scalable user login microservice
+              using gRPC, achieving 50% faster inter‑service communication.
+              <br />
+              • Utilized Docker for containerization, ensuring consistent
+              deployments and reducing errors by 40%.
+              <br />
+              • Integrated Cloud SQL and built canary rollout functionality with
+              automatic rollback, minimizing downtime to under two seconds.
+              <br />
+              • Created a sidecar proxy providing rate‑limiting and circuit
+              breaking with &lt;5ms latency overhead, and optimized data
+              pipelines for improved integrity and accessibility.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="section">
+    <div class="container">
+      <h2 class="section-title">Projects</h2>
+      <div class="projects-grid">
+        <div class="project-card">
+          <h3>Practical Byzantine Fault‑Tolerant System</h3>
+          <p>
+            Implemented the MIT PBFT protocol using Python, multi‑threading and
+            cryptography to achieve 99.9% reliability with 2f+1 quorum
+            validation. Features include real‑time transaction logging and a
+            view‑change mechanism to reduce leader election downtime.
+          </p>
+          <ul class="project-tags">
+            <li>Python</li>
+            <li>Cryptography</li>
+            <li>Distributed Systems</li>
+          </ul>
+        </div>
+        <div class="project-card">
+          <h3>Distributed Banking System with Paxos</h3>
+          <p>
+            Developed a distributed banking system leveraging the Paxos protocol
+            with asynchronous I/O to deliver low‑latency consensus and strong
+            consistency across multiple servers and clients, supporting over
+            1,000 transactions per second.
+          </p>
+          <ul class="project-tags">
+            <li>Python</li>
+            <li>Paxos</li>
+            <li>Concurrency</li>
+          </ul>
+        </div>
+        <div class="project-card">
+          <h3>Keyword Prediction for E‑commerce</h3>
+          <p>
+            Built a sentiment analysis recommendation system employing Naïve
+            Bayes, SVM and RNN models to suggest keywords on 10k+ scraped
+            reviews, reaching 96% accuracy and improving user search efficiency.
+          </p>
+          <ul class="project-tags">
+            <li>Machine Learning</li>
+            <li>NLP</li>
+            <li>Data Mining</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="section bg-alt">
+    <div class="container">
+      <h2 class="section-title">Get In Touch</h2>
+      <p class="contact-text">
+        I'm currently open to internships, co‑op positions, and collaborations.
+        Whether you have an idea, a question, or just want to say hello, feel
+        free to reach out!
+      </p>
+      <div class="contact-info">
+        <div class="contact-item">
+          <i class="fa-solid fa-envelope"></i>
+          <a href="mailto:yashureddyy161@gmail.com">yashureddyy161@gmail.com</a>
+        </div>
+        <div class="contact-item">
+          <i class="fa-solid fa-phone"></i>
+          <a href="tel:+16316819036">+1 (631) 681‑9036</a>
+        </div>
+        <div class="contact-item">
+          <i class="fa-brands fa-linkedin"></i>
+          <a href="https://linkedin.com/in/yasaswini" target="_blank" rel="noopener">LinkedIn</a>
+        </div>
+        <div class="contact-item">
+          <i class="fa-brands fa-github"></i>
+          <a href="https://github.com/yasaswini" target="_blank" rel="noopener">GitHub</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p>© 2025 Yasaswini P. Built with ❤ using HTML, CSS & JS.</p>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
